@@ -1,0 +1,87 @@
+:root {
+  --primary-color: #e8be02;
+  --darkgrey-color: #4f4d53;
+  --text-color: #fff;
+  --placeholder-color: #838185;
+  --heading1: 84px;
+  --heading2: 64px;
+  --heading3: 48px;
+  --heading4: 36px;
+  --body1: 14px;
+  --body2: 12px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  font-weight: 700;
+  font-size: var(--body1);
+  color: var(--text-color);
+  background: var(--darkgrey-color);
+  padding: 1rem 30rem;
+}
+
+h1 {
+  padding-top: 5rem;
+  font-weight: 700;
+  color: var(--darkgrey-color);
+  font-size: var(--heading1);
+}
+
+h2 {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: var(--heading2);
+  padding: 12rem 0 3.5rem;
+}
+
+h3 {
+  padding: 2rem 0 1rem;
+  font-weight: 700;
+  font-size: var(--body1);
+  color: var(--primary-color);
+}
+
+h4 {
+  color: var(--text-color);
+  font-size: var(--body2);
+  line-height: var(--body1);
+  font-weight: 300;
+  margin: 0;
+}
+
+p {
+  padding: 0 40.5rem 6rem;
+  line-height: var(--body1);
+  color: var(--placeholder-color);
+}
+
+footer {
+  background: var(--darkgrey-color);
+  border-top: solid 10px var(--primary-color);
+  justify-items: center;
+  padding: 1rem 5rem 5rem;
+  max-height: 320px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.hero {
+  height: 310px;
+  padding: 8rem 30rem;
+  background-image: url("./media/img_hero.jpg");
+}
+.hero-images {
+  display: grid;
+  grid-gap: 5rem;
+  transform: translate(0, 80%);
+  grid-template-columns: repeat(3, 1fr);
+}
+.content {
+  text-align: center;
+}
+.join-us {
+  padding-top: 1rem;
+}
